@@ -1,52 +1,54 @@
 # Guide Tool for Busbar Alignment in Lithium-Ion Battery Cabinets
 
 ## Overview
+The Guide Tool project addresses a critical assembly challenge encountered during the production of lithium-ion battery cabinets at Vertiv. It was developed as a precision alignment fixture to assist in the accurate placement of busbars—an essential component in battery modules. Misalignment had previously led to a 10% defect rate, along with costly rework and workflow inefficiencies.
 
-This project showcases the development of a precision alignment tool designed to assist in the assembly of busbars within lithium-ion battery cabinets at Vertiv. The guide tool aimed to address critical quality issues caused by misalignment during manual assembly and was developed through a process of rapid prototyping, user feedback, and ergonomic refinement.
+## Objective
+To eliminate misalignment issues in busbar installation by designing a reliable, ergonomic, and production-friendly guide tool using rapid prototyping methods.
 
 ## Problem Statement
+Before this tool, the assembly line struggled with:
+- **10% defect rate** in busbar alignment
+- Frequent **rework and scrap**
+- Operator frustration and decreased efficiency
+- Variability introduced by manual alignment methods
 
-Manual alignment of copper busbars in lithium-ion battery cabinets was resulting in:
-- A 10% defect rate due to misalignment
-- Frequent rework and delays in production
-- Operator strain and inefficiencies in workflow
+## Design Process
 
-Given the high importance of precision and repeatability in electrical cabinet assembly, a tooling solution was needed to ensure consistency, minimize rework, and enhance process reliability.
+### Step 1: Requirements Gathering
+- Conducted interviews with assembly operators to identify usability challenges
+- Analyzed alignment deviation patterns
+- Measured busbar geometry and cabinet interface
 
-## Solution
+### Step 2: Rapid Prototyping
+Three design iterations were developed and tested:
+1. **Prototype 1** – Correctly shaped but lacked proper tolerancing, resulting in loose fits.
+2. **Prototype 2** – Addressed fit but failed under stress and lacked ergonomic usability.
+3. **Prototype 3** – Final version with improved strength, correct alignment clearance, and better grip. Fabricated in black PLA and field-tested successfully.
 
-A 3D-printed alignment tool was developed using CREO Parametric and manufactured in-house using additive manufacturing. The design incorporated:
-- Guide slots precisely matched to busbar geometry
-- Operator-friendly grips for stability
-- Lightweight construction and ergonomic considerations
-- Magnetic anchoring system for ease of use in confined spaces
+![image](https://github.com/user-attachments/assets/ec4f746d-9447-4ac5-9338-3b9a2bb88145) 
+![image](https://github.com/user-attachments/assets/9e526a61-eb25-47cc-a1de-a65e4ec16222)
+![image](https://github.com/user-attachments/assets/4b5f4ee8-a966-47ef-95d8-a7aec3230e7f)
 
-## Key Features
+### Step 3: Testing & Validation
+- Tool tested in a production environment
+- Achieved **0% alignment defects** post-implementation
+- Fully adopted into the process after feedback from the production floor
 
-- ✅ **Defect Reduction**: Quality issues from misalignment dropped from 10% to 0%
-- 💡 **User-Driven Design**: Iteratively refined based on technician feedback
-- 🔧 **Ergonomic & Lightweight**: Minimizes fatigue and facilitates single-person use
-- 🧪 **Cost-Effective Prototyping**: Fabricated through 3D printing for fast iteration
-- 💸 **ROI**: Reduced costs associated with scrap, rework, and production downtime
+## Outcome
+- Reduced alignment-related defects from **10% to 0%**
+- Eliminated need for rework
+- Enhanced production throughput
+- Increased operator satisfaction
+- Minimal implementation cost due to 3D printing
+
+## Technology Stack
+- CAD: SolidWorks
+- Fabrication: FDM 3D Printing using PLA
+- Collaboration: On-site interviews, rapid iterations, shop floor testing
 
 ## Impact
-
-- Improved workflow efficiency on the battery cabinet assembly line
-- Reduced reliance on skilled manual alignment
-- Documented savings in labor hours and defect-related scrap
-- Reinforced culture of continuous improvement through Lean practices
-
-## Tools & Technologies
-
-- **CAD Modeling**: PTC Creo Parametric
-- **Manufacturing**: FDM 3D Printing
-- **Design Approach**: Rapid prototyping, user-centered design
-- **Analysis**: Manual fit testing and operator validation
-
-## Files
-
-This repository includes:
-- Photos of different versions of the guide tool
+The tool proved to be an inexpensive yet high-impact solution. It demonstrates how **user-driven design** and **rapid prototyping** can enhance manufacturing reliability and reduce costs significantly.
 
 > 🚫 *Note: Due to proprietary nature of Vertiv's internal systems, actual part geometries and assembly processes are not disclosed.*
 
